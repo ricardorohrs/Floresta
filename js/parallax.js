@@ -1,12 +1,12 @@
-$('div.BACK1').each(function(){
+$('div.BACK1').each(function () {
     var $obj = $(this);
 
-    $(window).scroll(function() {
-        var yPos = -($(window).scrollTop() / $obj.data('speed')); 
+    $(window).scroll(function () {
+        var yPos = -($(window).scrollTop() / $obj.data('speed'));
 
-        var bgpos = '50% '+ yPos + 'px';
+        var bgpos = '50% ' + yPos + 'px';
 
-        $obj.css('background-position', bgpos );
+        $obj.css('background-position', bgpos);
 
-    }); 
+    });
 });
